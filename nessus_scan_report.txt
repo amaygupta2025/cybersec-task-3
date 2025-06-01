@@ -1,0 +1,661 @@
+Nessus Vulnerability Report
+Target: 192.168.137.1
+Date: 2025-06-01
+Total Vulnerabilities Found: 82
+----------------------------------------
+
+Vulnerability: OS Security Patch Assessment Not Available
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: OS Security Patch Assessment is not available on the remote host.
+----------------------------------------
+
+Vulnerability: Common Platform Enumeration (CPE)
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By using information obtained from a Nessus scan, this plugin reports CPE (Common Platform Enumeration) matches for various hardware and software products found on a host. 
+----------------------------------------
+
+Vulnerability: Nessus Scan Information
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This plugin displays, for each tested host, information about the scan itself :
+----------------------------------------
+
+Vulnerability: Unknown Service Detection: Banner Retrieval
+Severity: Info
+Port: 33060/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was unable to identify a service on the remote host even though it returned a banner of some type.
+----------------------------------------
+
+Vulnerability: Target Credential Status by Authentication Protocol - No Credentials Provided
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was not able to successfully authenticate directly to the remote target on an available authentication protocol. Nessus was able to connect to the remote port and identify that the service running on the port supports an authentication protocol, but Nessus failed to authenticate to the remote service using the provided credentials. There may have been a protocol failure that prevented authentication from being attempted or all of the provided credentials for the authentication protocol may be invalid. See plugin output for error details.
+----------------------------------------
+
+Vulnerability: Device Type
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Based on the remote operating system, it is possible to determine what the remote system type is (eg: a printer, router, general-purpose computer, etc).
+----------------------------------------
+
+Vulnerability: OS Fingerprints Detected
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Using a combination of remote probes (TCP/IP, SMB, HTTP, NTP, SNMP, etc), it was possible to gather one or more fingerprints from the remote system. While the highest-confidence result was reported in plugin 11936, “OS Identification”, the complete set of fingerprints detected are reported here.
+----------------------------------------
+
+Vulnerability: OS Identification
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP, SNMP, etc.), it is possible to guess the name of the remote operating system in use. It is also possible sometimes to guess the version of the operating system.
+----------------------------------------
+
+Vulnerability: MySQL Server Detection
+Severity: Info
+Port: 3306/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote host is running MySQL, an open source database server.
+----------------------------------------
+
+Vulnerability: SSL Perfect Forward Secrecy Cipher Suites Supported
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote host supports the use of SSL ciphers that offer Perfect Forward Secrecy (PFS) encryption.  These cipher suites ensure that recorded SSL traffic cannot be broken at a future date if the server's private key is compromised.
+----------------------------------------
+
+Vulnerability: TLS Version 1.2 Protocol Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote service accepts connections encrypted using TLS 1.2.
+----------------------------------------
+
+Vulnerability: TLS Version 1.3 Protocol Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote service accepts connections encrypted using TLS 1.3.
+----------------------------------------
+
+Vulnerability: SSL Cipher Suites Supported
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This plugin detects which SSL ciphers are supported by the remote service for encrypting communications.
+----------------------------------------
+
+Vulnerability: SSL Certificate Cannot Be Trusted
+Severity: Medium
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: 6.4
+Description: The server's X.509 certificate cannot be trusted. This situation can occur in three different ways, in which the chain of trust can be broken, as stated below :
+----------------------------------------
+
+Vulnerability: OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library)
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to login to the remote host using SSH or local commands and extract the list of installed packages.
+----------------------------------------
+
+Vulnerability: SSL Certificate Information
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This plugin connects to every SSL-related port and attempts to extract and dump the X.509 certificate.
+----------------------------------------
+
+Vulnerability: SSL / TLS Versions Supported
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This plugin detects which SSL and TLS versions are supported by the remote service for encrypting communications.
+----------------------------------------
+
+Vulnerability: HyperText Transfer Protocol (HTTP) Information
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This test gives some information about the remote HTTP protocol - the version used, whether HTTP Keep-Alive is enabled, etc... 
+----------------------------------------
+
+Vulnerability: Nessus Server Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: A Nessus daemon is listening on the remote port.
+----------------------------------------
+
+Vulnerability: Strict Transport Security (STS) Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote web server implements Strict Transport Security (STS).
+----------------------------------------
+
+Vulnerability: Web Server UPnP Detection
+Severity: Info
+Port: 2869/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to extract some information about the UPnP-enabled device by querying this web server. Services may also be reachable through SOAP requests.
+----------------------------------------
+
+Vulnerability: HTTP Server Type and Version
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: This plugin attempts to determine the type and the version of the   remote web server.
+----------------------------------------
+
+Vulnerability: SMB Signing not required
+Severity: Medium
+Port: 445/tcp
+CVE: N/A
+CVSS Score: 5.0
+Description: Signing is not required on the remote SMB server. An unauthenticated, remote attacker can exploit this to conduct man-in-the-middle attacks against the SMB server.
+----------------------------------------
+
+Vulnerability: Service Detection (HELP Request)
+Severity: Info
+Port: 2869/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: It was possible to identify the remote service by its banner or by looking at the error message it sends when it receives a 'HELP' request.
+----------------------------------------
+
+Vulnerability: Service Detection
+Severity: Info
+Port: 3306/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to identify the remote service by its banner or by looking at the error message it sends when it receives an HTTP request.
+----------------------------------------
+
+Vulnerability: Service Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to identify the remote service by its banner or by looking at the error message it sends when it receives an HTTP request.
+----------------------------------------
+
+Vulnerability: Universal Plug and Play (UPnP) Protocol Detection
+Severity: Info
+Port: 1900/udp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote device answered an SSDP M-SEARCH request. Therefore, it supports 'Universal Plug and Play' (UPnP). This protocol provides automatic configuration and device discovery. It is primarily intended for home networks. An attacker could potentially leverage this to discover your network architecture.
+----------------------------------------
+
+Vulnerability: Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check)
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to obtain the set of SMB2 and SMB3 dialects running on the remote host by sending an authentication request to port 139 or 445.
+----------------------------------------
+
+Vulnerability: Host Fully Qualified Domain Name (FQDN) Resolution
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to resolve the fully qualified domain name (FQDN) of the remote host.
+----------------------------------------
+
+Vulnerability: Microsoft Windows SMB Versions Supported (remote check)
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to obtain the version of SMB running on the remote host by sending an authentication request to port 139 or 445.
+----------------------------------------
+
+Vulnerability: WMI Not Available
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: WMI (Windows Management Instrumentation) is not available on the remote host over DCOM. WMI queries are used to gather information about the remote host, such as its current state, network interface configuration, etc.
+----------------------------------------
+
+Vulnerability: Microsoft Windows NTLMSSP Authentication Request Remote Network Name Disclosure
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote host listens on tcp port 445 and replies to SMB requests.
+----------------------------------------
+
+Vulnerability: Service Detection
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to identify the remote service by its banner or by looking at the error message it sends when it receives an HTTP request.
+----------------------------------------
+
+Vulnerability: Netstat Connection Information
+Severity: Info
+Port: 0/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote host has listening ports or established connections that Nessus was able to extract from the results of the 'netstat' command.
+----------------------------------------
+
+Vulnerability: Microsoft Windows SMB NativeLanManager Remote System Information Disclosure
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to obtain the remote operating system name and version (Windows and/or Samba) by sending an authentication request to port 139 or 445. Note that this plugin requires SMB to be enabled on the host.
+----------------------------------------
+
+Vulnerability: Windows NetBIOS / SMB Remote Host Information Disclosure
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote host is listening on UDP port 137 or TCP port 445, and replies to NetBIOS nbtscan or SMB requests.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49675/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49674/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49668/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49667/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49666/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49665/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 49664/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: DCE Services Enumeration
+Severity: Info
+Port: 135/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: By sending a Lookup request to the portmapper (TCP 135 or epmapper PIPE) it was possible to enumerate the Distributed Computing Environment (DCE) services running on the remote port. Using this information it is possible to connect and bind to each service by sending an RPC request to the remote port/pipe.
+----------------------------------------
+
+Vulnerability: Microsoft Windows SMB Service Detection
+Severity: Info
+Port: 139/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote service understands the CIFS (Common Internet File System) or Server Message Block (SMB) protocol, used to provide shared access to files, printers, etc between nodes on a network.
+----------------------------------------
+
+Vulnerability: Microsoft Windows SMB Service Detection
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: The remote service understands the CIFS (Common Internet File System) or Server Message Block (SMB) protocol, used to provide shared access to files, printers, etc between nodes on a network.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59468/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59466/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59467/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59471/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 68/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 67/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59470/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 59472/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 1900/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 138/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 137/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 55660/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 54710/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 5355/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 5353/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 5050/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 4500/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 500/udp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 139/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49675/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49674/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49668/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49667/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49666/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49665/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 49664/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 33060/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 8834/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 7680/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 7250/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 5040/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 3306/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 2869/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 445/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
+
+Vulnerability: Netstat Portscanner (SSH)
+Severity: Info
+Port: 135/tcp
+CVE: N/A
+CVSS Score: N/A
+Description: Nessus was able to run 'netstat' on the remote host to enumerate the open ports. If 'netstat' is not available, the plugin will attempt to use 'ss'.
+----------------------------------------
